@@ -67,7 +67,6 @@ void task7() {
     phaseTr->SetLineColor(kBlue);
     phaseTr->Draw("AC");
 
-
     c1->cd(2); gPad->SetGrid();
     TGraph* x_t = new TGraph(N+1, arr_t, arr_x);
     TGraph* y_t = new TGraph(N+1, arr_t, arr_y);
